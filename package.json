@@ -1,0 +1,10 @@
+{
+  "name": "forbes-cosmetics",
+  "version": "1.0.0",
+  "description": "Forbes Cosmetics online store: Express API and vanilla JavaScript frontend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2" },
+  "license": "MIT"
+}

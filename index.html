@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forbes Cosmetics</title>
+<meta name="description" content="Makeup, skincare and fragrance delivered to your door.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+  <a class="logo" href="/">Forbes Cosmetics</a>
+  <input id="q" type="search" placeholder="Search products" aria-label="Search products">
+  <button class="btn" id="cartBtn">Cart (<span id="count">0</span>)</button>
+</div></header>
+<main>
+  <section class="hero"><div class="wrap">
+    <h1>Beauty you can trust, delivered to you.</h1>
+    <p>Shop makeup, skincare, fragrance and nails. Order online and pay on delivery.</p>
+  </div></section>
+  <section class="wrap">
+    <div class="tabs" id="tabs" role="group" aria-label="Categories"></div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="yr"></span> Forbes Cosmetics. All rights reserved.</div></footer>
+
+<dialog id="cart">
+  <div class="dh"><h2>Your cart</h2><button class="x" id="closeCart" aria-label="Close cart">✕</button></div>
+  <div id="lines"></div>
+  <div class="tot"><span>Total</span><strong id="total"></strong></div>
+  <form id="co" novalidate>
+    <label>Full name<input id="name" autocomplete="name"></label>
+    <label>Phone number<input id="phone" type="tel" autocomplete="tel"></label>
+    <label>Delivery address<textarea id="addr" rows="2"></textarea></label>
+    <button class="btn full" type="submit">Place order</button>
+    <p id="msg" role="status"></p>
+  </form>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>

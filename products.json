@@ -1,0 +1,14 @@
+[
+{"id":1,"name":"Velvet Matte Lipstick","category":"Lips","price":35000,"stock":40,"type":"lip","color":"#b3123f","desc":"Rich, long-wear matte colour that stays comfortable all day."},
+{"id":2,"name":"Glossy Berry Lip Gloss","category":"Lips","price":22000,"stock":55,"type":"tube","color":"#d0457a","desc":"High-shine gloss with a light, non-sticky feel."},
+{"id":3,"name":"Silk Skin Foundation","category":"Face","price":65000,"stock":30,"type":"bottle","color":"#c8956d","desc":"Medium coverage with a natural, even finish."},
+{"id":4,"name":"Radiant Setting Powder","category":"Face","price":45000,"stock":25,"type":"jar","color":"#e3bf9a","desc":"Lightweight powder that sets makeup and controls shine."},
+{"id":5,"name":"Lash Lift Mascara","category":"Eyes","price":30000,"stock":50,"type":"tube","color":"#2b1d2f","desc":"Lengthens and separates lashes without clumping."},
+{"id":6,"name":"Smoky Eye Palette","category":"Eyes","price":78000,"stock":18,"type":"jar","color":"#6b4a7a","desc":"Twelve blendable shades from soft neutrals to deep plum."},
+{"id":7,"name":"Hydra Glow Serum","category":"Skincare","price":85000,"stock":22,"type":"bottle","color":"#e8b04b","desc":"Vitamin C and hyaluronic acid for brighter, plumper skin."},
+{"id":8,"name":"Shea Butter Day Cream","category":"Skincare","price":48000,"stock":35,"type":"jar","color":"#f2e3c6","desc":"Deep moisture with SPF 15 for everyday protection."},
+{"id":9,"name":"Gentle Foaming Cleanser","category":"Skincare","price":32000,"stock":45,"type":"tube","color":"#8fcbb0","desc":"Removes makeup and dirt without drying your skin."},
+{"id":10,"name":"Rose Oud Perfume","category":"Fragrance","price":120000,"stock":15,"type":"perfume","color":"#c25b7a","desc":"Warm rose and oud with a soft vanilla base."},
+{"id":11,"name":"Citrus Bloom Body Mist","category":"Fragrance","price":38000,"stock":40,"type":"perfume","color":"#f0a93b","desc":"Light, fresh mist for a quick pick-me-up."},
+{"id":12,"name":"Gel Nail Polish, Plum","category":"Nails","price":15000,"stock":60,"type":"polish","color":"#7a2a6b","desc":"Chip-resistant colour with a glossy gel finish."}
+]
